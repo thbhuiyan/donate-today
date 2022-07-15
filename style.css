@@ -83,10 +83,38 @@ body {
 }
 
 .tk {
+    margin-left: 40px;
     margin-top: 60px;
     border: #ffffff;
 }
 
 .heading-line {
     text-align: center;
+}
+
+.card,
+.card2,
+.card3 {
+    display: inline-block;
+    font-size: large;
+    margin: 0px 20px;
+    padding: 6% 4%;
+    background-color: azure;
+}
+
+.card2 {
+    background-color: antiquewhite;
+}
+
+.card3 {
+    background-color: mistyrose;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards p {
+    text-align: justify;
 }
