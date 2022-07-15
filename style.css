@@ -121,6 +121,13 @@ body {
 
 /* Section 3 */
 .survive {
-    width: ;
+    display: flex;
+}
 
+.survive-content {
+    width: 50%;
+}
+
+.survive-image {
+    width: 50%;
 }
