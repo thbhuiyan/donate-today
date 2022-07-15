@@ -1,9 +1,11 @@
 body {
     margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* top section */
 .text-block {
+    justify-content: center;
     position: absolute;
     color: #ffffff;
     top: 50%;
@@ -35,6 +37,9 @@ body {
 }
 
 /* Section 2 */
+.donation-section {
+    margin-bottom: 60px;
+}
 
 .half-donate-section {
     max-width: 1280px;
@@ -42,4 +47,42 @@ body {
     padding: 0 20%;
     text-align: center;
     font-size: medium;
+}
+
+.all-donation {
+    display: flex;
+    justify-content: center;
+}
+
+.donation {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    color: rgb(77, 72, 72);
+    background-color: rgb(218, 218, 231);
+    border: 2px solid rgb(218, 218, 231);
+}
+
+.donation:hover {
+    color: rgb(255, 38, 0);
+    background-color: rgb(248, 211, 209);
+    border: 2px solid tomato;
+}
+
+.donation-heading {
+    font-size: 60px;
+}
+
+.donation-para {
+    line-height: 26px;
+}
+
+.tk {
+    margin-top: 60px;
+    border: #ffffff;
+    padding: 6px 200px;
 }
