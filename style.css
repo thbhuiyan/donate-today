@@ -122,6 +122,7 @@ body {
 /* Section 3 */
 .survive {
     display: flex;
+    justify-content: center;
 }
 
 .survive-content {
