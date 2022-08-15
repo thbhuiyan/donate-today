@@ -28,7 +28,7 @@ body {
     background-color: rgba(255, 166, 0, 1);
     margin-top: 20px;
     padding: 20px 60px;
-    border-radius: 40px;
+    border-radius: 12px;
 }
 
 .button:visited {
@@ -139,11 +139,16 @@ body {
 }
 
 /* section4 */
-button {
+.button {
     background-color: rgb(255, 82, 82);
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 500;
     color: white;
+}
+
+.button:hover {
+    background-color: rgb(235, 58, 58);
+    transition: background-color .5s;
 }
 
 .subscribe {
